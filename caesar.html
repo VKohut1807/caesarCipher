@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Caesar cipher</title>
+	<link rel="stylesheet" type="text/css" href="caesar.css">
+</head>
+<body>
+
+<!-- ceasarCipher -->
+<script src="caesar.js"></script>
+
+	<div>
+		<table>
+			<!-- upElement -->
+			<tr>
+				<td>
+					<form>
+						<textarea id="in" rows="1" cols="25" placeholder="Text to encryption"></textarea>
+					</form>	
+				</td>
+			</tr>
+
+			<!-- button -->
+			<tr>
+				<td>
+				</td>
+				<td>
+					<textarea id="shift" rows="1" cols="6" placeholder="Shift"></textarea>
+				</td>
+				<td>
+					<input type="submit" onclick="caesar()" value="">
+				</td>
+			</tr>
+
+			<!-- downElement -->
+			<tr>
+				<td>
+					<textarea id="out" rows="1" cols="25" placeholder="Text after encryption" readonly=""></textarea>	
+				</td>
+			</tr>
+		</table>
+	</div>		
+</body>
+</html>	
